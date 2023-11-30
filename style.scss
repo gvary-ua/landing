@@ -1,7 +1,18 @@
-.my {
-  color: red;
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+.max-600 {
+  max-width: 600px;
 }
 
-.should-be-deleted {
-  background-color: blue;
-} 
+nav {
+  @include until($tablet) {
+    display: none;
+  }
+}
+
+.container {
+  @include fullhd {
+    max-width: 1152px !important;
+  }
+}
