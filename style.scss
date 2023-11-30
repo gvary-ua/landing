@@ -1,18 +1,59 @@
 @charset "utf-8";
+
+$timeline-marker-size: 24px;
+$timeline-line-width: 4px;
+
 @import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma-timeline/src/sass/index.sass";
+
 
 .max-600 {
   max-width: 600px;
-}
-
-nav {
-  @include until($tablet) {
-    display: none;
-  }
 }
 
 .container {
   @include fullhd {
     max-width: 1152px !important;
   }
+}
+
+
+.columns.is-variable.is-8 {
+  --columnGap: 3rem;
+}
+
+.image.is-256x256 {
+  width: 256px;
+  height: 256px;
+  margin: 0 auto;
+}
+
+.hidden-on-tablet {
+  @include until($tablet) {
+    display: none;
+  }
+}
+
+.line-height-2 {
+  line-height: 2rem;
+}
+
+m-auto {
+  margin: 0 auto;
+}
+
+.mt-12 {
+  margin-top: 6rem;
+}
+
+.mb-12 {
+  margin-bottom: 6rem;
+}
+
+.is-size-1 {
+  line-height: 2.3rem;
+}
+
+.olive {
+  background-color: rgb(233, 242, 252)!important;
 }

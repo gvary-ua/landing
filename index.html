@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="hidden-on-tablet">
     <nav class="navbar">
       <div class="container">
         <div id="navMenu" class="navbar-menu">
@@ -18,7 +18,6 @@
               <i>Ґвари</i>
             </a>
           </div>
-    
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
@@ -32,20 +31,21 @@
   </header>
   <main>
     <article>
-      <section class="hero is-info">
+      <section class="hero olive">
         <div class="hero-body is-vcentered">
           <div class="container">
             <div class="columns">
               <div class="column is-8">
                 <h1 class="title is-size-1">Спільнота та розвиток</h1>
-                <h2 class="subtitle is-size-4 mt-1 max-600"><i>Ґвари</i> - це платформа, яка об'єднує читачів та
+                <h2 class="is-size-4 max-600 has-text-weight-light"><i>Ґвари</i> - це платформа, яка об'єднує
+                  читачів та
                   письменників задля розвитку та підтримки.</h2>
-                <div class="buttons mt-6 mb-6">
+                <div class="buttons mt-6 pt-4">
                   <a class="button is-medium is-primary">Хочу читати</a>
-                  <a class="button is-medium is-link ml-2">Хочу творити</a>
+                  <a class="button is-medium is-link">Хочу творити</a>
                 </div>
               </div>
-              <div class="column is-4">
+              <div class="column is-4 hidden-on-tablet">
                 <figure class="image is-square">
                   <img src="https://bulma.io/images/placeholders/256x256.png">
                 </figure>
@@ -54,116 +54,85 @@
           </div>
         </div>
       </section>
-      <section class="section has-text-centered is-vcentered">
-          <div class="container">
-            <div class="columns">
-              <div class="column is-4 has-text-centered">
-                <h2 class="is-size-4 has-text-weight-bold">Ґвари для читачів</h2>
-                <p class="is-size-5 mt-2">Сотні творів від українських авторів. Гнучкі й динамічні реакції.</p>
-                <a class="button is-medium is-primary mt-6">Хочу читати</a>
+      <section class="section">
+        <div class="container pt-6">
+          <div class="columns is-variable is-8 has-text-centered">
+            <div class="column is-4">
+              <div class="image is-256x256">
+                <img src="https://bulma.io/images/placeholders/256x256.png" alt="">
               </div>
-              <div class="column is-3">
-                <div class="card">
-                  <div class="card-header">
-                    <div class="card-header-title is-justify-content-center">
-                      <div class="media">
-                        <div class="media-left"></div>
-                        <h3 class="media-content is-size-4 has-text-weight-bold">Свіжі твори</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content is-size-5">Автори створють нові унікальні українські твори щодня.</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="column is-3">
-                <div class="card">
-                  <div class="card-header">
-                    <div class="card-header-title is-justify-content-center">
-                      <div class="media">
-                        <div class="media-left"></div>
-                        <h3 class="media-content is-size-4 has-text-weight-bold">Реакції</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content is-size-5">Коментуй, цитуй прямо в тексті. Спілкуйся напряму з автором.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="column is-2">
-                <div class="card">
-                  <div class="card-header">
-                    <div class="card-header-title is-justify-content-center">
-                      <div class="media">
-                        <div class="media-left"></div>
-                        <h3 class="media-content is-size-4 has-text-weight-bold">Донати</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content is-size-5">Підтримай автора, отримай плюшки!</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <h2 class="is-size-3 line-height-2 has-text-weight-medium mt-3">Сотні унікальних творів</h2>
+              <p class="is-size-5 has-text-weight-light mt-5">Читай безліч нових творів від українських авторів онлайн.
+              </p>
             </div>
+            <div class="column is-4">
+              <div class="image is-256x256">
+                <img src="https://bulma.io/images/placeholders/256x256.png" alt="">
+              </div>
+              <h2 class="is-size-3 line-height-2 has-text-weight-medium mt-3">Спільнота підтримки</h2>
+              <p class="is-size-5 has-text-weight-light mt-5">Обговорюй твори з однодумцями. Коментуй, цитуй прямо в
+                тексті.</p>
+            </div>
+            <div class="column is-4">
+              <div class="image is-256x256">
+                <img src="https://bulma.io/images/placeholders/256x256.png" alt="">
+              </div>
+              <h2 class="is-size-3 line-height-2 has-text-weight-medium mt-3">Монетизація креативу</h2>
+              <p class="is-size-5 has-text-weight-light mt-5">Підтримай автора донатом та отримуй плюшки! Продавай книги
+                або окремо розділи.</p>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="section has-text-centered is-vcentered">
-          <div class="container">
-            <div class="columns">
-              
-              <div class="column is-5">
-                <div class="card">
-                  <div class="card-header">
-                    <div class="card-header-title is-justify-content-center">
-                      <div class="media">
-                        <div class="media-left"></div>
-                        <h3 class="media-content is-size-4 has-text-weight-bold">Твій шлях до видатництва</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content is-size-5">Ми надаємо чіткі крітерії щодо видатництва твору. Наша команда допомагає тобі з публікацією твора.</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="column is-3">
-                <div class="card">
-                  <div class="card-header">
-                    <div class="card-header-title is-justify-content-center">
-                      <div class="media">
-                        <div class="media-left"></div>
-                        <h3 class="media-content is-size-4 has-text-weight-bold">Творчий простір</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content is-size-5">Notion-подібний вебредактор. Публікація книги в один клик.</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="column is-4 has-text-centered">
-                <h2 class="is-size-4 has-text-weight-bold">Ґвари для письменників</h2>
-                <p class="is-size-5 mt-2">Редактор що працює офлайн. Інтеграція з популярними інструментами (наприклад. Горох) </p>
-                <a class="button is-medium is-info mt-6">Хочу творити</a>
+      <section class="section olive">
+        <div class="container">
+          <div class="has-text-centered mb-6">
+            <p class="is-size-1 is-italic has-text-weight-medium mb-4">Розвивайся з нами!</p>
+            <p class="is-size-5 has-text-weight-light max-600 m-auto">Ми - команда вмотивованих письменників, які
+              бажають зробити простір літератури кращим!</p>
+          </div>
+          <div class="timeline is-centered pt-6">
+            <header class="timeline-header">
+              <span class="tag is-large is-link">Початок</span>
+            </header>
+            <div class="timeline-item is-link">
+              <div class="timeline-marker is-link"></div>
+              <div class="timeline-content">
+                <p class="heading">Q3 2023</p>
+                <p>Зародилася ідея "Ґвари"</p>
               </div>
             </div>
+            <div class="timeline-item is-link">
+              <div class="timeline-marker is-link"></div>
+              <div class="timeline-content">
+                <p class="heading">Q4 2023</p>
+                <p>"Ґвари" пройшли відбір до Startup School by Startup Depot</p>
+              </div>
+            </div>
+            <header class="timeline-header">
+              <span class="tag is-medium is-danger">2024</span>
+            </header>
+            <div class="timeline-item is-danger">
+              <div class="timeline-marker is-danger is-icon">
+                <i class="fa fa-flag"></i>
+              </div>
+              <div class="timeline-content">
+                <p class="heading">Лютий 2024</p>
+                <p>Запуск першої версії платформи "Ґвари"</p>
+              </div>
+            </div>
+            <header class="timeline-header">
+              <span class="tag is-medium is-danger">Далі буде</span>
+            </header>
+          </div>
         </div>
       </section>
-      <section>
+      <section class="section">
+        <div class="container">
+          <div class="has-text-centered mb-6">
+            <a class="button is-large is-primary">Долучитися</a>
+          </div>
+        </div>
       </section>
     </article>
   </main>
