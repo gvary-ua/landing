@@ -1,11 +1,20 @@
 @charset "utf-8";
 
+$primary: #776B5D;
+$secondary: #dac59f;
+$accent: #e59200;
+$background: #FBF7F0;
+$background-dark: #f2e5ce;
+$text: #09121c;
+
+$link: $accent;
+$info: $secondary;
+
 $timeline-marker-size: 24px;
 $timeline-line-width: 4px;
 
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulma-timeline/src/sass/index.sass";
-
 
 .max-600 {
   max-width: 600px;
@@ -54,6 +63,6 @@ m-auto {
   line-height: 2.3rem;
 }
 
-.olive {
-  background-color: rgb(233, 242, 252)!important;
+.has-background-light-custom {
+  background-color: $background!important;
 }
